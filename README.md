@@ -1,3 +1,11 @@
+## Rails Girls 2015
+
+-----
+
+### L.A. Adventure App
+
+*Made by Dana Cox*
+
 == README
 
 This README would normally document whatever steps are necessary to get the
