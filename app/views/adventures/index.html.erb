@@ -4,9 +4,10 @@
 <div class="row">
 <% group.compact.each do |adventure| %>
   <div class="col-md-4">
-  <%= image_tag adventure.picture_url, width: '100%' if adventure.picture.present?%>
   <h4><%= link_to adventure.name, adventure %></h4>
-  <%= adventure.description %>
+  <div class="image-container"><%= image_tag adventure.picture_url, width: '60%' if adventure.picture.present?%>
+   </div>
+   <%= adventure.description %>
   </div>
   <% end %>
   </div>

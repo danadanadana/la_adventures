@@ -17,5 +17,7 @@ body { padding: 60px 15px; }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+img{margin:0 auto;}
+.image-container{width:100%; text-align:center;}
 
 
